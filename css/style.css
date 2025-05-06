@@ -97,10 +97,94 @@ img{
     color: var(--font-color);
 }
 /* --------------------------------------- navbar css end --------------------------------------- */
-/* --------------------------------------- common css start --------------------------------------- */
+/* --------------------------------------- banner css start --------------------------------------- */
+#main_banner{
+    position: relative;
+    padding-top: 84px;
+}
+.banner_text h1{
+    font-family: var(--ubuntu);
+    font-size: 90px;
+    font-weight: 300;
+    color: var(--font-color);
+    text-transform: uppercase;
+    line-height: 95px;
+    letter-spacing: 1%;
+}
 
+.banner_img{
+    width: 856px;
+    position: absolute;
+    top: 31px;
+    right: 0;
+}
+.banner_text span{
+    font-weight: 700;
+    display: block;
+}
+.banner_text .banner_border{
+    width: 335px;
+    height: 4px;
+    background: #42454A;
+    margin-top: 93px;
+    margin-bottom: 62px;
+}
+.banner_text p{
+    width: 333px;
+    font-family: var(--ubuntu);
+    font-size: 22px;
+    font-weight: 400;
+    line-height: 34px;
+    color: var(--font-color);
+    margin-bottom: 44px;
+}
+.buy_now{
+    display: flex;
+    gap:50px;
+    align-items: center;
+}
+.buy_now .buy{
+    font-family: var(--ubuntu);
+    font-size: 20px;
+    font-weight: 500;
+    color:#17181A;
+    letter-spacing: 2%;
+    display: flex;
+    align-items: center;
+    gap: 13px;
+}
+.buy_now span{
+    width: 58px;
+    height: 58px;
+    background: #F7EAE3;
+    color: #fff;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.buy_now .play{
+    font-family: var(--ubuntu);
+    font-size: 18px;
+    font-weight: 500;
+    color: #414449;
+    letter-spacing: 1%;
+    line-height: 25px;
+}
+.buy_now .play_btn{
+    width: 80px;
+    height: 80px;
+    animation: rotate 5s linear infinite;
+}
+@keyframes rotate{
+    from{
+        transform: rotate(0deg);
+    }
+    to{
+        transform: rotate(360deg);
+    }
+}
 
-/* --------------------------------------- common css end --------------------------------------- */
+/* --------------------------------------- banner css end --------------------------------------- */
 /* --------------------------------------- common css start --------------------------------------- */
 
 

@@ -266,10 +266,45 @@ img{
     margin-top: 49px;
 }
 /* --------------------------------------- high efficiency motor css end --------------------------------------- */
-/* --------------------------------------- common css start --------------------------------------- */
-
-
-/* --------------------------------------- common css end --------------------------------------- */
+/* --------------------------------------- accessories css start --------------------------------------- */
+#main_accessories{
+    padding-top: 315px;
+}
+.accessories_content{
+    margin-top: 112px;
+}
+.accessories_right_text{
+    margin-top: 48px;
+}
+.accessories_right_text h3{
+    font-family: var(--ubuntu);
+    font-size: 50px;
+    font-weight: 700;
+    color: var(--font-color);
+}
+.accessories_right_text ul{
+    padding: 0px;
+}
+.accessories_right_text ul li{
+    display: flex;
+    align-items: center;
+    gap: 10px;
+    margin-top: 33px;
+}
+.accessories_right_text ul li img{
+    width: 49px;
+    height: 49px;
+}
+.accessories_right_text ul li p{
+    font-family: var(--ubuntu);
+    font-size: 20px;
+    font-weight: 400;
+    color: var(--font-color);
+}
+.accessorise_left_img{
+    width: 878px;
+}
+/* --------------------------------------- accessories css end --------------------------------------- */
 /* --------------------------------------- common css start --------------------------------------- */
 
 

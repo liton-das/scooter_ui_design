@@ -15,6 +15,7 @@ h1,h2,h3,h4,h5,h6,p{
 }
 ul,ol{
     list-style: none;
+    margin: 0;
 }
 a{
     display: inline-block;
@@ -28,6 +29,22 @@ img{
 :root{
     --ubuntu:"Ubuntu", sans-serif;
     --font-color:#42454A
+}
+.common_section_text{
+    text-align: center;
+}
+.common_section_text h2{
+    font-family: var(--ubuntu);
+    font-size: 50px;
+    font-weight: 700;
+    color: var(--font-color);
+}
+.common_section_text p{
+    font-family: var(--ubuntu);
+    font-size: 20px;
+    font-weight: 400;
+    color: var(--font-color);
+    margin-top: 34px;
 }
 /* --------------------------------------- common css end --------------------------------------- */
 /* --------------------------------------- navbar css start --------------------------------------- */
@@ -156,7 +173,7 @@ img{
 .buy_now span{
     width: 58px;
     height: 58px;
-    background: #F7EAE3;
+    background: #EEEEEF;
     color: #fff;
     display: flex;
     justify-content: center;
@@ -206,13 +223,13 @@ img{
 .single_counter_box .counter_text h2 span{
     font-family: var(--ubuntu);
     font-size: 40px;
-    font-weight: 800;
+    font-weight: 700;
     color: var(--font-color);
 }
 .single_counter_box .counter_text h2{
     font-family: var(--ubuntu);
     font-size: 18px;
-    font-weight: 800;
+    font-weight: 700;
     color: var(--font-color);
 }
 .single_counter_box .counter_text h2 p{
@@ -222,10 +239,25 @@ img{
     color: var(--font-color);
 }
 /* --------------------------------------- counter css end --------------------------------------- */
-/* --------------------------------------- common css start --------------------------------------- */
-
-
-/* --------------------------------------- common css end --------------------------------------- */
+/* --------------------------------------- Information css start --------------------------------------- */
+#main_information {
+    padding-top: 127px;
+}
+.information_right_text{
+    display: flex;
+    justify-content: end;
+    margin-top: 143px;
+}
+.information_right_text ul li {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+    margin-top: 34px;
+}
+.information_right_text ul li img{
+    width: 49px;
+}
+/* --------------------------------------- Information css end --------------------------------------- */
 /* --------------------------------------- common css start --------------------------------------- */
 
 

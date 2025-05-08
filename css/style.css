@@ -185,10 +185,43 @@ img{
 }
 
 /* --------------------------------------- banner css end --------------------------------------- */
-/* --------------------------------------- common css start --------------------------------------- */
-
-
-/* --------------------------------------- common css end --------------------------------------- */
+/* --------------------------------------- counter css start --------------------------------------- */
+#main_counter{
+    padding-top: 209px;
+}
+.single_counter_box{
+    display: flex;
+    justify-content:center;
+    box-shadow: rgba(0, 0, 0, 0.1) 0px 10px 15px -3px, rgba(0, 0, 0, 0.05) 0px 4px 6px -2px;
+}
+.single_counter_box .counter_text{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    gap: 18px;
+    padding-top: 28px;
+    padding-bottom: 33px;
+}
+.single_counter_box .counter_text h2 span{
+    font-family: var(--ubuntu);
+    font-size: 40px;
+    font-weight: 800;
+    color: var(--font-color);
+}
+.single_counter_box .counter_text h2{
+    font-family: var(--ubuntu);
+    font-size: 18px;
+    font-weight: 800;
+    color: var(--font-color);
+}
+.single_counter_box .counter_text h2 p{
+    font-family: var(--ubuntu);
+    font-size: 13px;
+    font-weight: 400;
+    color: var(--font-color);
+}
+/* --------------------------------------- counter css end --------------------------------------- */
 /* --------------------------------------- common css start --------------------------------------- */
 
 

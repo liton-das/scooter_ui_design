@@ -1,3 +1,9 @@
+$('.counter').counterUp({
+  delay: 10,
+  time: 1000
+});
+
+
 let words = ['the future.'],
     part,
     i = 0,

@@ -1,4 +1,4 @@
-# 🛴 Scooter UI Design
+# 🛴 Scooter-web App UI Design
 
 A visually appealing and responsive front-end layout for a scooter-related web interface. Built using **HTML**, **CSS**, and **Bootstrap**, this project showcases a modern, mobile-friendly design ideal for showcasing scooter services or rental platforms.
 

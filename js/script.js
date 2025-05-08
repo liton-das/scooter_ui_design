@@ -3,6 +3,8 @@ $('.counter').counterUp({
   time: 1000
 });
 
+  AOS.init();
+
 
 let words = ['the future.'],
     part,

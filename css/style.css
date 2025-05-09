@@ -262,7 +262,7 @@ img{
 #main_high_efficiency{
     padding-top: 126px;
 }
-.efficiency_img{
+.efficiency_img img{
     margin-top: 49px;
 }
 /* --------------------------------------- high efficiency motor css end --------------------------------------- */
@@ -301,14 +301,74 @@ img{
     font-weight: 400;
     color: var(--font-color);
 }
-.accessorise_left_img{
-    width: 878px;
-}
 /* --------------------------------------- accessories css end --------------------------------------- */
-/* --------------------------------------- common css start --------------------------------------- */
-
-
-/* --------------------------------------- common css end --------------------------------------- */
+/* --------------------------------------- shopping css start --------------------------------------- */
+#main_shopping{
+   margin-top: 131px;
+    position: relative;
+}
+.shopping_img{
+    width: 779px;
+    top: 0;
+    left: 0;
+    position: absolute;
+}
+.shopping_text_end{
+    display: flex;
+    flex-direction: column;
+    align-items: end;
+}
+.shopping_text h3{
+font-family: var(--ubuntu);
+font-size: 50px;
+font-weight: 700;
+color: var(--font-color);
+}
+.shopping_text ul{
+    padding: 0;
+}
+.shopping_text ul li{
+    display: flex;
+    align-items: center;
+    margin-top: 33px;
+}
+.shopping_text ul li img{
+    width: 49px;
+    height: 49px;
+}
+.shopping_text ul li p{
+    font-family: var(--ubuntu);
+    font-size: 20px;
+    font-weight: 400;
+    color: var(--font-color);
+}
+.shopping_btn{
+    display: flex;
+    justify-content: center;
+    margin-top: 74px;
+    margin-bottom: 127px;
+}
+.shopping_btn a{
+    width: 570px;
+    height: 94px;
+    font-family: var(--ubuntu);
+    font-size: 30px;
+    font-weight: 700;
+    color: var(--font-color);
+    background: #fff;
+    border: 2px solid var(--font-color);
+    border-radius: 10px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    cursor: pointer;
+    transition: all 1s;
+}
+.shopping_btn a:hover{
+    background-color: var(--font-color);
+    color: #fff;
+}
+/* --------------------------------------- shopping css end --------------------------------------- */
 /* --------------------------------------- common css start --------------------------------------- */
 
 

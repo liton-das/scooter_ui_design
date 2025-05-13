@@ -346,7 +346,6 @@ color: var(--font-color);
     display: flex;
     justify-content: center;
     margin-top: 74px;
-    margin-bottom: 127px;
 }
 .shopping_btn a{
     width: 570px;
@@ -369,10 +368,47 @@ color: var(--font-color);
     color: #fff;
 }
 /* --------------------------------------- shopping css end --------------------------------------- */
-/* --------------------------------------- common css start --------------------------------------- */
-
-
-/* --------------------------------------- common css end --------------------------------------- */
+/* --------------------------------------- gallery css start --------------------------------------- */
+#main_gallery{
+    padding-top: 127px;
+}
+ .gallery_img{
+    width: 633px;
+    margin-top: 302px;
+}
+.gallery_buttons{
+    display: flex;
+    flex-direction: column;
+    gap: 27px;
+    margin-top: 55px;
+}
+.gallery_buttons a{
+    width: 570px;
+    height: 94px;
+    font-family: var(--ubuntu);
+    font-size: 30px;
+    font-weight: 700;
+    color: var(--font-color);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border: 1px solid var(--font-color);
+    border-radius: 10px;
+    transition: all linear .5s;
+}
+.gallery_buttons a:hover{
+    background-color: var(--font-color);
+    color: #ffffff;
+}
+.gallery_img_2{
+    width: 633px;
+    margin-top: 112px;
+    margin-bottom: 96px;
+}
+ .gallery_img_3{
+    width: 633px;
+}
+/* --------------------------------------- gallery css end --------------------------------------- */
 /* --------------------------------------- common css start --------------------------------------- */
 
 

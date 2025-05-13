@@ -409,10 +409,27 @@ color: var(--font-color);
     width: 633px;
 }
 /* --------------------------------------- gallery css end --------------------------------------- */
-/* --------------------------------------- common css start --------------------------------------- */
+/* --------------------------------------- colors css start --------------------------------------- */
+#main_colors{
+    padding-top: 128px;
+}
 
-
-/* --------------------------------------- common css end --------------------------------------- */
+.my_slider_nav .signle_slider_navs img{
+    width: 246px;
+    cursor: pointer;
+}
+.my_slider{
+    position: relative;
+    margin-top: 152px;
+}
+.my_slider_nav{
+    width: 100%;
+    position: absolute;
+    bottom: -15%;
+    left: 50%;
+    transform: translateX(-50%);
+}
+/* --------------------------------------- colors css end --------------------------------------- */
 /* --------------------------------------- common css start --------------------------------------- */
 
 

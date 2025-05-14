@@ -520,10 +520,46 @@ color: var(--font-color);
     right: 40%;
 }
 /* --------------------------------------- testimonials css end --------------------------------------- */
-/* --------------------------------------- common css start --------------------------------------- */
-
-
-/* --------------------------------------- common css end --------------------------------------- */
+/* --------------------------------------- subscribe css start --------------------------------------- */
+#main_subscribe{
+    padding-top: 121px;
+    padding-bottom: 35px;
+}
+#main_subscribe .common_section_text p{
+    margin-top: 11px;
+    margin-bottom: 59px;
+}
+.subscribe_form .subscribe{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 20px;
+}
+.subscribe input{
+    padding: 27px 207px 26px 38px;
+    border-radius: 10px;
+    background: #F5F5F5;
+    outline: none;
+    border: none;
+}
+.subscribe :nth-child(2){
+    padding: 27px 57px 26px 58px;
+    background: var(--font-color);
+    border: 1px solid #000000;
+    color: #FBFBFB;
+    transition: all linear .4s;
+}
+.subscribe :nth-child(2):hover{
+    background: #FBFBFB;
+    color: var(--font-color);
+}
+.subscribe input::placeholder{
+    font-family: var(--ubuntu);
+    font-size: 20px;
+    font-weight: 400;
+    color: var(--font-color);
+}
+/* --------------------------------------- subscribe css end --------------------------------------- */
 /* --------------------------------------- common css start --------------------------------------- */
 
 

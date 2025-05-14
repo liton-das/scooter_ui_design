@@ -69,3 +69,12 @@ $('.slider-nav').slick({
   focusOnSelect: true
   
 });
+
+// ------------------------ slide for testimonials -------------
+$('.slider_card').slick({
+  infinite: true,
+  slidesToShow: 3,
+  slidesToScroll: 3,
+  prevArrow:`<i class="fa-solid arrow arrow-left fa-arrow-left"></i>`,
+  nextArrow:`<i class="fa-solid arrow arrow-right fa-arrow-right"></i>`,
+});

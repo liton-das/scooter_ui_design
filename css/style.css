@@ -16,6 +16,7 @@ h1,h2,h3,h4,h5,h6,p{
 ul,ol{
     list-style: none;
     margin: 0;
+    padding: 0;
 }
 a{
     display: inline-block;
@@ -425,7 +426,7 @@ color: var(--font-color);
 .my_slider_nav{
     width: 100%;
     position: absolute;
-    bottom: -15%;
+    bottom: -30%;
     left: 50%;
     transform: translateX(-50%);
 }
@@ -437,13 +438,87 @@ color: var(--font-color);
     padding-bottom: 167px;
     background: #ffffff;
 }
-.card_items{
+#main_testimonials .common_section_text h2 {
+    margin-bottom: 41px;
+    
+}
+.card_single_items{
     width:360px ;
     height: 366px;
     border: 1px solid #D8D8D8;
+    padding: 52px 22px 54px 34px;
+    transition: all linear .4s;
 }
-
-
+.card_items:hover{
+    border:1px solid white;
+    outline: none;
+    box-shadow: rgba(0, 0, 0, 0.07) 0px 1px 1px, rgba(0, 0, 0, 0.07) 0px 2px 2px, rgba(0, 0, 0, 0.07) 0px 4px 4px, rgba(0, 0, 0, 0.07) 0px 8px 8px, rgba(0, 0, 0, 0.07) 0px 16px 16px;
+}
+.card_single_items ul{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: #FE8B75;
+}
+.card_items .card_single_items h3{
+    width: 304px;
+    text-align: center;
+    font-family: var(--ubuntu);
+    font-size: 20px;
+    font-weight: 400;
+    color: var(--font-color);
+    margin: 12px 0 54px 0;
+}
+.review_profile{
+    display: flex;
+    gap: 20px;
+    justify-content: center;
+    align-items: center;
+}
+.review_profile .profile_pic{
+    width: 48px;
+    height: 48px;
+    border-radius: 50%;
+    overflow: hidden;
+}
+.review_profile .review_text p{
+    font-family: var(--ubuntu);
+    font-size: 16px;
+    font-weight: 500;
+    color: var(--font-color);
+}
+.review_profile .review_text :nth-child(2){
+    font-size: 14px;
+    font-weight: 400;
+    margin-top: 4px;
+}
+.slider_card{
+    position: relative;
+}
+.arrow{
+    width: 42px;
+    height: 42px;
+    border-radius: 50%;
+    border: 1px solid var(--font-color);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    transition: all linear .4s;
+    cursor: pointer;
+    position: absolute;
+}
+.arrow:hover{
+    background: var(--font-color);
+    color: #fff;
+}
+.arrow-left{
+    bottom: -20%;
+    left: 50%;
+}
+.arrow-right{
+    bottom: -20%;
+    right: 40%;
+}
 /* --------------------------------------- testimonials css end --------------------------------------- */
 /* --------------------------------------- common css start --------------------------------------- */
 

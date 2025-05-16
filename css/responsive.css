@@ -1,0 +1,102 @@
+/* ------------------- responsive for extra small device start ------------------- */
+@media(min-width:320px) and (max-width:575.98px) {
+
+    /* --------------------- navbar responsive start --------------------- */
+    .navbar-brand img {
+        width: 85px;
+    }
+
+    .navbar-nav {
+        gap: 35px;
+    }
+
+    .res_css {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        margin-top: 20px;
+        gap: 50px;
+        background: #42454a;
+        padding-top: 20px;
+        padding-bottom: 20px;
+    }
+
+    .navbar-nav li a {
+        font-weight: 500;
+        color: RGBA(255, 255, 255, 1) !important;
+    }
+
+    .nav_btn a {
+        width: 80px;
+        height: 40px;
+        background: #fff;
+        color: #42454a;
+    }
+
+    .nav_btn a:nth-child(2) {
+        color: #fff;
+        border: 1px solid #fff;
+    }
+
+    /* --------------------- navbar responsive end --------------------- */
+    
+    /* --------------------- navbar responsive start --------------------- */
+
+
+    /* --------------------- navbar responsive end --------------------- */
+    /* --------------------- navbar responsive start --------------------- */
+
+
+    /* --------------------- navbar responsive end --------------------- */
+    /* --------------------- navbar responsive start --------------------- */
+
+
+    /* --------------------- navbar responsive end --------------------- */
+    /* --------------------- navbar responsive start --------------------- */
+
+
+    /* --------------------- navbar responsive end --------------------- */
+}
+
+/* ------------------- responsive for extra small device end ------------------- */
+/* ------------------- responsive for extra small device start ------------------- */
+
+
+/* ------------------- responsive for extra small device end ------------------- */
+/* ------------------- responsive for extra small device start ------------------- */
+
+
+/* ------------------- responsive for extra small device end ------------------- */
+/* ------------------- responsive for extra small device start ------------------- */
+
+
+/* ------------------- responsive for extra small device end ------------------- */
+/* ------------------- responsive for extra small device start ------------------- */
+
+
+/* ------------------- responsive for extra small device end ------------------- */
+/* ------------------- responsive for extra small device start ------------------- */
+
+
+/* ------------------- responsive for extra small device end ------------------- */
+/* ------------------- responsive for extra small device start ------------------- */
+
+
+/* ------------------- responsive for extra small device end ------------------- */
+/* ------------------- responsive for extra small device start ------------------- */
+
+
+/* ------------------- responsive for extra small device end ------------------- */
+/* ------------------- responsive for extra small device start ------------------- */
+
+
+/* ------------------- responsive for extra small device end ------------------- */
+/* ------------------- responsive for extra small device start ------------------- */
+
+
+/* ------------------- responsive for extra small device end ------------------- */
+/* ------------------- responsive for extra small device start ------------------- */
+
+
+/* ------------------- responsive for extra small device end ------------------- */

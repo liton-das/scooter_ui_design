@@ -129,7 +129,9 @@ img{
     line-height: 95px;
     letter-spacing: 1%;
 }
-
+.res_banner_img{
+    display: none;
+}
 .banner_img{
     width: 856px;
     position: absolute;

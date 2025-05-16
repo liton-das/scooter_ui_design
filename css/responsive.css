@@ -40,7 +40,61 @@
     }
 
     /* --------------------- navbar responsive end --------------------- */
-    
+    /* --------------------- banner responsive start --------------------- */
+    #main_banner {
+	padding-top: 30px;
+}
+    .res_banner_img{
+        display: block;
+    }
+    .res_banner_img {
+	display: block;
+}
+    .banner_img{
+        display: none;
+    }
+    .banner_text h1 {
+	font-size: 45px;
+	line-height: 65px;
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+}
+.banner_text .banner_border {
+	width: 100%;
+	margin-top: 62px;
+}
+.banner_text p {
+	width: 100%;
+	margin-bottom: 50px;
+}
+.buy_now {
+	gap: 50px;
+	flex-wrap: wrap;
+}
+.buy_now span {
+	width: 125px;
+	height: 55px;
+	background: #42454A;
+}
+.buy_now .buy {
+	font-size: 25px;
+	gap: 35px;
+	margin: 0 auto;
+}
+.buy_now .play {
+	margin: 0 auto;
+}
+.buy_now .play_btn {
+	width: 150px;
+	height: 150px;
+	margin: 0 auto;
+}
+    /* --------------------- banner responsive end --------------------- */
+    /* --------------------- counter responsive start --------------------- */
+
+
+    /* --------------------- counter responsive end --------------------- */
     /* --------------------- navbar responsive start --------------------- */
 
 

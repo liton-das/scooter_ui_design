@@ -105,10 +105,10 @@
 	padding-top: 60px;
 }
 .common_section_text h2 {
-	font-size: 30px;
+	font-size: 28px;
 }
 .common_section_text p {
-	font-size: 19px;
+	font-size: 17px;
 	margin-top: 30px;
 }
 .information_right_text {
@@ -118,8 +118,50 @@
 .information_right_text ul li img {
 	width: 35px;
 }
-
     /* --------------------- Information  responsive end --------------------- */
+    /* --------------------- accessorise responsive start --------------------- */
+#main_accessories {
+	padding-top: 150px;
+}
+.accessories_content {
+	margin-top: 56px;
+}
+.accessories_right_text h3 {
+	font-size: 44px;
+}
+.accessorise_left_img.aos-init.aos-animate {
+	width: 100%;
+	margin-top: 70px;
+}
+    /* --------------------- accessorise responsive end --------------------- */
+    /* --------------------- shopping responsive start --------------------- */
+    .shopping_text h3 {
+	font-size: 42px;
+}
+.res_shopping_img{
+    display: block;
+    margin-top: 60px;
+}
+.shopping_img{
+    display: none;
+}
+.shopping_btn a {
+	width: 100%;
+	height: 80px;
+	font-size: 18px;
+	color: #fff;
+	background: #42454a;
+	border: 1px solid var(--font-color);
+}
+    /* --------------------- shopping responsive end --------------------- */
+    /* --------------------- gallery responsive start --------------------- */
+
+
+    /* --------------------- gallery responsive end --------------------- */
+    /* --------------------- navbar responsive start --------------------- */
+
+
+    /* --------------------- navbar responsive end --------------------- */
     /* --------------------- navbar responsive start --------------------- */
 
 

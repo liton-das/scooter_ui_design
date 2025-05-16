@@ -310,6 +310,9 @@ img{
    margin-top: 131px;
     position: relative;
 }
+.res_shopping_img{
+    display: none;
+}
 .shopping_img{
     width: 779px;
     top: 0;

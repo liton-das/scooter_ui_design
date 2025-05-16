@@ -155,13 +155,31 @@
 }
     /* --------------------- shopping responsive end --------------------- */
     /* --------------------- gallery responsive start --------------------- */
-
-
+#main_gallery {
+	padding-top: 68px;
+}
+.gallery_img {
+	width: 100%;
+	margin-top: 75px;
+}
+.gallery_buttons a {
+	width: 100%;
+	height: 80px;
+	font-size: 22px;
+	font-weight: 500;
+}
+.gallery_img_2 {
+	width: 100%;
+	margin-top: 70px;
+	margin-bottom: 48px;
+}
+.gallery_img_3 {
+	width: 100%;
+}
     /* --------------------- gallery responsive end --------------------- */
-    /* --------------------- navbar responsive start --------------------- */
-
-
-    /* --------------------- navbar responsive end --------------------- */
+    /* --------------------- colors responsive start --------------------- */
+    
+    /* --------------------- colors responsive end --------------------- */
     /* --------------------- navbar responsive start --------------------- */
 
 

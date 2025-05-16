@@ -92,13 +92,34 @@
 }
     /* --------------------- banner responsive end --------------------- */
     /* --------------------- counter responsive start --------------------- */
-
+#main_counter {
+	padding-top: 115px;
+}
+.single_counter_box {
+	margin-bottom: 55px;
+}
 
     /* --------------------- counter responsive end --------------------- */
-    /* --------------------- navbar responsive start --------------------- */
+    /* --------------------- Information  responsive start --------------------- */
+#main_information {
+	padding-top: 60px;
+}
+.common_section_text h2 {
+	font-size: 30px;
+}
+.common_section_text p {
+	font-size: 19px;
+	margin-top: 30px;
+}
+.information_right_text {
+	justify-content: center;
+	margin-top: 25px;
+}
+.information_right_text ul li img {
+	width: 35px;
+}
 
-
-    /* --------------------- navbar responsive end --------------------- */
+    /* --------------------- Information  responsive end --------------------- */
     /* --------------------- navbar responsive start --------------------- */
 
 

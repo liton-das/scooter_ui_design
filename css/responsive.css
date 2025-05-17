@@ -53,12 +53,13 @@
     .banner_img{
         display: none;
     }
-    .banner_text h1 {
-	font-size: 45px;
-	line-height: 65px;
+ .banner_text h1 {
+	font-size: 36px;
+	line-height: 55px;
 	display: flex;
 	flex-direction: column;
 	justify-content: center;
+	align-items: center;
 }
 .banner_text .banner_border {
 	width: 100%;
@@ -111,8 +112,13 @@
 	font-size: 17px;
 	margin-top: 30px;
 }
-.information_right_text {
-	justify-content: center;
+
+.information_right_text ul{
+margin: 0 auto;
+
+}
+.information_right_text ul li {
+	gap: 8px;
 	margin-top: 25px;
 }
 .information_right_text ul li img {
@@ -126,8 +132,23 @@
 .accessories_content {
 	margin-top: 56px;
 }
+.accessories_right_text {
+	margin: 0 auto;
+}
+.accessories_right_text ul li {
+	gap: 6px;
+	margin-top: 28px;
+}
+.accessories_right_text ul li img {
+	width: 30px;
+	height: 30px;
+}
+.accessories_right_text ul li p {
+	font-size: 16px;
+}
 .accessories_right_text h3 {
-	font-size: 44px;
+	font-size: 28px;
+	text-align: center;
 }
 .accessorise_left_img.aos-init.aos-animate {
 	width: 100%;
@@ -135,12 +156,30 @@
 }
     /* --------------------- accessorise responsive end --------------------- */
     /* --------------------- shopping responsive start --------------------- */
-    .shopping_text h3 {
-	font-size: 42px;
+.shopping_text h3 {
+	font-size: 28px;
+	text-align: center;
 }
-.res_shopping_img{
-    display: block;
-    margin-top: 60px;
+.shopping_text_end {
+    width: 100%;
+	align-items: center;
+	margin-bottom: 60px;
+}
+.shopping_text {
+	margin: 0 auto;
+	width: 100%;
+}
+.shopping_text ul li img {
+	width: 30px;
+	height: 30px;
+}
+.shopping_text ul li p {
+	font-size: 18px;
+}
+.res_shopping_img {
+	display: block;
+	width: 100%;
+	margin: 0 auto;
 }
 .shopping_img{
     display: none;
@@ -163,10 +202,11 @@
 	margin-top: 75px;
 }
 .gallery_buttons a {
-	width: 100%;
+	width: 99%;
 	height: 80px;
-	font-size: 22px;
+	font-size: 18px;
 	font-weight: 500;
+	margin: 0 auto;
 }
 .gallery_img_2 {
 	width: 100%;
@@ -258,7 +298,10 @@
     padding: 0;
 }
 .right_content h2 {
-	margin-bottom: 22px;
+    margin-bottom: 22px;
+}
+.footer_text {
+    text-align: center;
 }
 .footer_text ul {
 	gap: 15px;

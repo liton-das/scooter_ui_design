@@ -1,5 +1,5 @@
 /* ------------------- responsive for extra small device start ------------------- */
-@media(min-width:320px) and (max-width:575.98px) {
+@media(max-width:575.98px) {
 
     /* --------------------- navbar responsive start --------------------- */
     .navbar-brand img {

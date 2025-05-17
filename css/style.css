@@ -625,6 +625,9 @@ color: var(--font-color);
     color: #FBFBFB;
 
 }
+.res_footer_right_img{
+    display: none;
+}
 .footer_right_img{
     width: 729px;
     position: absolute;

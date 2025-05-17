@@ -178,20 +178,96 @@
 }
     /* --------------------- gallery responsive end --------------------- */
     /* --------------------- colors responsive start --------------------- */
-    
+    .my_slider {
+	margin-top: 70px;
+}
+.my_slider_nav {
+	width: 100%;
+	bottom: -20%;
+}
+.my_slider_nav .signle_slider_navs img {
+	width: 98%;
+}
     /* --------------------- colors responsive end --------------------- */
-    /* --------------------- navbar responsive start --------------------- */
+    /* --------------------- testimonials responsive start --------------------- */
+#main_testimonials {
+	padding-top: 180px;
+    margin-top: 0;
+}
+.card_single_items {
+	width: 100%;
+}
+.card_items .card_single_items h3 {
+	width: 100%;
+}
+.arrow-left {
+	bottom: -20%;
+	left: 30%;
+	background: #42454a;
+	color: #fff;
+}
+.arrow-right {
+	bottom: -20%;
+	right: 30%;
+	background: #42454a;
+	color: #fff;
+}
+    /* --------------------- testimonials responsive end --------------------- */
+    /* --------------------- subscribe responsive start --------------------- */
+#main_subscribe {
+	padding-top: 55px;
+}
+.subscribe_form .subscribe {
+	gap: 4px;
+}
+.subscribe :nth-child(2) {
+	padding: 10px 10px 10px 10px;
+    font-size: 13px;
+}
+.subscribe input {
+	padding: 10px 10px 10px 10px;
+	border-radius: 10px;
+	background: #F5F5F5;
+	outline: none;
+	border: none;
+}
+.subscribe input::placeholder {
+	font-size: 14px;
+}
 
-
-    /* --------------------- navbar responsive end --------------------- */
-    /* --------------------- navbar responsive start --------------------- */
-
-
-    /* --------------------- navbar responsive end --------------------- */
-    /* --------------------- navbar responsive start --------------------- */
-
-
-    /* --------------------- navbar responsive end --------------------- */
+    /* --------------------- subscribe responsive end --------------------- */
+    /* --------------------- footer responsive start --------------------- */
+#footer {
+	margin-top: 55px;
+}
+.res_footer_right_img{
+    display: block;
+    margin-bottom: 55px;
+}
+.footer_right_img{
+    display: none;
+}
+.right_content {
+	justify-content: center;
+	gap: 29px;
+	margin-bottom: 8px;
+	padding-top: 80px;
+	flex-wrap: wrap;
+	align-items: center;
+	flex-direction: column;
+    padding: 0;
+}
+.right_content h2 {
+	margin-bottom: 22px;
+}
+.footer_text ul {
+	gap: 15px;
+}
+#footer p {
+	font-size: 13px;
+	margin-top: 100px;
+}
+/* --------------------- footer responsive end --------------------- */
 }
 
 /* ------------------- responsive for extra small device end ------------------- */
